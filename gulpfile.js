@@ -88,7 +88,7 @@ function watching() {
 			baseDir: "app/"
 		}
 	});
-	watch(['app/scss/style.scss'], styles)
+	watch(['app/scss/style.scss', 'app/scss/**/*'], styles)
 	watch(['app/images/img'], images)
 	watch(['app/js/main.js'], scripts)
 	watch(['app/components/*', 'app/pages/*'], pages)
